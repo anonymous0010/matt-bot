@@ -25,6 +25,7 @@ class SeleniumHelper:
 		try:
 			self.driver.get(page)
 			return True
+			
 		except:
 			return False
 
